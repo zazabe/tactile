@@ -1,0 +1,73 @@
+#infos {
+    width: 220px;
+    border: 2px solid #666;
+    background: #e5e5e5;
+    border-radius: 10px;
+    float: right;
+    padding: 10px 15px;
+}
+
+#infos h1 {
+    font-size: 140%;
+    font-weight: bolder;
+}
+
+#infos h2 {
+    font-size: 110%;
+    padding: 10px 0 3px;
+    font-weight: bolder;
+}
+
+#infos ul {
+    padding: 0 5px;
+}
+
+#infos li {
+    padding: 2px 5px;
+    width: 200px;
+}
+
+#infos li span {
+    float: right;
+}
+
+#testArea {
+    width: 600px;
+    float: left;
+}
+
+#swipe, #tap, #zoom {
+    margin: 10px auto;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+
+#tap {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-color: #090;
+    background: #bcb;
+}
+
+#swipe {
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border-color: #900;
+    background: #cbb;
+}
+
+#zoom {
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border-color: #009;
+    background: #bbc;
+}
