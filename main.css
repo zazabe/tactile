@@ -1,5 +1,14 @@
+html * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #infos {
-    width: 220px;
+    width: 150px;
     border: 2px solid #666;
     background: #e5e5e5;
     border-radius: 10px;
@@ -25,10 +34,20 @@
 #infos li {
     padding: 2px 5px;
     width: 200px;
+    font-size: 10px;
+}
+
+
+
+#infos li .label {
+    display: inline-block;
+    width: 80px;    
+    font-size: 12px;
 }
 
 #infos li span {
-    float: right;
+    font-size: 12px;
+    font-weight: bolder;
 }
 
 #testArea {
